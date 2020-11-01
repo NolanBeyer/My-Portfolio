@@ -1,0 +1,204 @@
+.home--page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  font-family: 'Rubik', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80);
+  background-size: cover;
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke: 3px #143652;
+}
+
+.name {
+  text-decoration: none;
+  font-size: 70px;
+}
+
+.about--me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  background-color: #143652;
+  color: white;
+  font-size: 25px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3c4552;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projects .card {
+  width: 20%;
+  height: 50%;
+  background-color: #143652;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.projects .card .title {
+  font-size: 21px;
+  margin: 10px;
+  color: white;
+}
+
+.projects .card .description {
+  margin: 10px;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card:hover {
+  width: 20%;
+  height: 50%;
+  flex-grow: 0.01;
+  transition: 0.2s linear;
+  background-color: #143652;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c4552;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  color: white;
+  height: 75vh;
+  width: 75vw;
+  background-color: #143652;
+  box-shadow: 10px 10px 10px black;
+}
+
+.about h2 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.about h1 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.jobs {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+}
+
+.job1 {
+  text-align: center;
+}
+
+.job2 {
+  text-align: center;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3c4552;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #143652;
+  padding: 50px;
+  width: 50vw;
+  height: 75vh;
+  color: white;
+  box-shadow: 10px 10px 10px black;
+}
+
+.contact-main .info {
+  padding: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  position: fixed;
+  bottom: 0;
+  background-color: #143652;
+  color: white;
+}
+
+.main--nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 10vh;
+  background-color: #143652;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 24px;
+  margin: 25px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  margin: 25px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */

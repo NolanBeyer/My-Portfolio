@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary-color;
+    width: 100vw;
+    height: 100vh;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    color: white;
+    height: 75vh;
+    width: 75vw;
+    background-color: $primary-color;
+    box-shadow: 10px 10px 10px black;
+
+
+    h2{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+    }
+
+    h1{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+    }
+}
+
+.jobs{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+
+.job1{
+    text-align: center;
+}
+
+.job2{
+    text-align: center;
+}
+
+
+
+
+
