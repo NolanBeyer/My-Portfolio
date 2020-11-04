@@ -24,6 +24,14 @@ a{
     font-family: 'Rubik', sans-serif;
 }
 
+.dropdown{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
 
 @media (max-width: 768px){
     .links{
@@ -41,11 +49,13 @@ a{
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
 
-.main--nav{
-   display: none;
+
+.links{
+    display: none;
 }
+
 
 .dropdown {
     display: initial;
@@ -57,7 +67,6 @@ a{
 
 .mobile-menu{
     display: initial;
-    background: #3B3B3B;
     position: fixed;
     top: 48px;
     right: 0px;
@@ -67,15 +76,9 @@ a{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: $secondary-color;
 }
 
-.links{
-    text-decoration: none;
-    font-size: 24px;
-    margin: 25px;
-    color: white;
-    font-family: 'Rubik', sans-serif;
-}
 
 a{
     text-decoration: none;
@@ -83,5 +86,9 @@ a{
     margin: 25px;
     color: white;
     font-family: 'Rubik', sans-serif;
+}
+
+i{
+    color: white;
 }
 }

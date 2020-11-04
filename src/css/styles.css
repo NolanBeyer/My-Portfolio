@@ -10,7 +10,6 @@
   background-size: cover;
   font-size: 40px;
   color: white;
-  -webkit-text-stroke: 3px #143652;
 }
 
 .name {
@@ -77,7 +76,6 @@ img {
 @media (max-width: 768px) {
   .home--page {
     font-size: 25px;
-    -webkit-text-stroke: 2px #143652;
   }
   .name {
     font-size: 50px;
@@ -96,8 +94,20 @@ img {
     color: white;
   }
   .card .title .description {
+    font-size: 3px;
     margin: 6px;
     color: white;
+  }
+}
+
+@media (max-width: 500px) {
+  .home--page {
+    font-size: 15px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
   }
 }
 
@@ -222,6 +232,14 @@ a {
   font-family: 'Rubik', sans-serif;
 }
 
+.dropdown {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .links {
     text-decoration: none;
@@ -237,8 +255,8 @@ a {
   }
 }
 
-@media (max-width: 400px) {
-  .main--nav {
+@media (max-width: 500px) {
+  .links {
     display: none;
   }
   .dropdown {
@@ -248,7 +266,6 @@ a {
   }
   .mobile-menu {
     display: initial;
-    background: #3B3B3B;
     position: fixed;
     top: 48px;
     right: 0px;
@@ -258,13 +275,7 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-  }
-  .links {
-    text-decoration: none;
-    font-size: 24px;
-    margin: 25px;
-    color: white;
-    font-family: 'Rubik', sans-serif;
+    background-color: #3c4552;
   }
   a {
     text-decoration: none;
@@ -272,6 +283,9 @@ a {
     margin: 25px;
     color: white;
     font-family: 'Rubik', sans-serif;
+  }
+  i {
+    color: white;
   }
 }
 

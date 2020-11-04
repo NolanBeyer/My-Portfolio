@@ -6,12 +6,12 @@ class Nav extends React.Component {
 		super()
 
 		this.state = {
-			dropDown: false,
+			dropdown: false,
 		}
 	}
 
-	toggleDropdown = () => {
-		this.setState({ dropDown: !this.state.dropDown })
+	toggleDropDown = () => {
+		this.setState({ dropdown: !this.state.dropdown })
 	}
 
 	render() {
@@ -29,21 +29,24 @@ class Nav extends React.Component {
 					</Link>
 				</div>
 
-				<div className='dropdown' onClick={this.toggleDropdown}><i class='fas fa-bars burger'></i></div>
-					{ this.state.dropDown ? (
-						<div className='mobileMenu'>
-								<Link className='links' to={'/'}>
-						Home
-					</Link>
-					<Link className='links' to={'/about'}>
-						About
-					</Link>
-					<Link className='links' to={'contact'}>
-						Contact
-					</Link>
-						</div>
-					): null}
+				<div className='dropdown' onClick={this.toggleDropDown}>
+					<i class='fas fa-bars burger'></i>
+					</div>
+				{this.state.dropdown ? (
+					<div className='mobile-menu'>
+						<Link className='links' to={'/'}>
+							Home
+						</Link>
+						<Link className='links' to={'/about'}>
+							About
+						</Link>
+						<Link className='links' to={'contact'}>
+							Contact
+						</Link>
+					</div>
+				) : null}
 			</div>
+			
 		)
 	}
 }
