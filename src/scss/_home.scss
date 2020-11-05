@@ -82,30 +82,42 @@ img {
 
 	.name{
 		font-size: 50px;
+		display: flex;
+		width: 20%;
+		height: 30%;
+	}
+
+	img{
+		height: 100px;
 	}
 
 	.card {
-		width: 10%;
+		width: 20%;
 		height: 30%;
 		background-color: $primary-color;
 		text-align: center;
-		font-size: 5px;
+		font-size: 15px;
 		box-shadow: 10px 10px 10px black;
+	}
 	
 		.title {
 			font-size: 5px;
 			margin: 10px;
 			color: white;
-        
+		}
 
 			.description {
-				font-size: 3px;
+				display: flex;
+				font-size: 10px;
 				margin: 6px;
 				color: white;
 			}
+
+			.link{
+				font-size: 5px;
+			}
 		}
-	}
-}
+
 
 @media(max-width: 500px){
 	.home--page{
@@ -115,6 +127,6 @@ img {
 	.projects{
 		display: flex;
 		flex-direction: column;
-		padding: 10px;
+		padding: 20px;
 	}
 }
