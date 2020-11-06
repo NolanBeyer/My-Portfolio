@@ -14,16 +14,23 @@ const About = () => {
 				learn additional technologies to fit the needs of future employers.
 				</h4>
 				<div className='jobs'>
+					<h1>Experience</h1>
 					<div clasName='job1'>
 						<h2>Dev Mountain</h2>
-						<h4>Immersive, 13-week web-development bootcamp for learning Javascript, HTML/CSS, React, Node, and PostgreSQL frameworks</h4>
+						<h4>Immersive, 13-week web-development bootcamp for learning Javascript, HTML/CSS, React, Node, and PostgreSQL frameworks.</h4>
 					</div>
 			<div className='jobs'>
-				<div className='job2'>
-					<h2><i class="fas fa-paint-brush"></i>Graphic designer</h2>
-					<h4>Designed graphics for various buisnesess using adobe illustrator</h4>
+				<div className='job3'>
+					<h2>REdevly</h2>
+					<h4>Working part time for a startup primarily focusing on HTML, CSS/SCSS along with learning the basics of angular. </h4>
 				</div>
 			</div>
+			</div>
+			<div className='jobs'>
+				<div className='job2'>
+					<h2>Graphic designer</h2>
+					<h4>Designed graphics for various buisnesess using adobe illustrator.</h4>
+				</div>
 			</div>
 		</div>
 		</div>

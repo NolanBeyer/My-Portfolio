@@ -28,6 +28,10 @@
   font-size: 25px;
 }
 
+.eye {
+  width: 200px;
+}
+
 .projects {
   display: flex;
   justify-content: space-evenly;
@@ -161,10 +165,11 @@ img {
 
 .jobs {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  padding: 45px;
+  padding: 20px;
 }
 
 .job1 {

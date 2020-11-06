@@ -64,7 +64,7 @@ const Home = () => {
 						</p>
 					</div>
 					<div className='link'>
-						<a className='links' href='https://www.face-id.dev/#/'>
+						<a className='links eye'  href='https://www.face-id.dev/#/'>
 							<i class='fab fa-chrome'></i> site
 						</a>
 						<a className='links' href='https://github.com/darrylking15/image-recognition'>
