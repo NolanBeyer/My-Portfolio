@@ -15,7 +15,7 @@ const Contact = () => {
 					<a className='links' className='fab fa-github' href='https://github.com/NolanBeyer'></a>
 				</h2>
 				<h2 className='info'>
-					RESUME: <a className='links' href='https://docs.google.com/document/d/1vDKrCI6gJ_dlaeLlpHgoYI028fGBEmxCJwByaa39pTw/edit?usp=sharing'>My Resume</a>
+					RESUME: <a className='links' href='https://docs.google.com/document/d/1vDKrCI6gJ_dlaeLlpHgoYI028fGBEmxCJwByaa39pTw/edit?usp=sharing'><i class="far fa-file"></i></a>
 				</h2>
 			</div>
 		</div>
