@@ -194,7 +194,7 @@ img {
   flex-direction: column;
   margin: 0 auto;
   background-color: #143652;
-  padding: 50px;
+  padding: 40px;
   width: 50vw;
   height: 75vh;
   color: white;
@@ -202,7 +202,7 @@ img {
 }
 
 .contact-main .info {
-  padding: 25px;
+  padding: 20px;
 }
 
 h1 {
