@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $secondary-color;
+    background-color: rgb(60, 69, 82);
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
 }
 
 .about{
@@ -14,11 +14,11 @@
     padding: 20px;
     flex-direction: column;
     color: white;
-    height: 75vh;
+    height: 80vh;
     width: 75vw;
-    background-color: $primary-color;
+    background-color: rgb(20, 54, 82);
     box-shadow: 10px 10px 10px black;
-
+}
 
     h2{
         display: flex;
@@ -35,7 +35,7 @@
         align-items: center;
         text-decoration: underline;
     }
-}
+
 
 .jobs{
     display: flex;
@@ -53,8 +53,3 @@
 .job2{
     text-align: center;
 }
-
-
-
-
-

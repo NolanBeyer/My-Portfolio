@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
 
 const Home = () => {
 	return (
@@ -49,7 +50,7 @@ const Home = () => {
 					<div className='image'>
 						<img 
 							alt='security'
-							src='https://scontent.fhio2-1.fna.fbcdn.net/v/t1.0-9/128686846_3612580498803002_5196109832987003516_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=dU-JOka2M6UAX_32CNl&_nc_ht=scontent.fhio2-1.fna&oh=45b6a8e22a50e47f1b3cd89492a876ba&oe=5FEAB890'
+							src='https://scontent.fhio2-1.fna.fbcdn.net/v/t1.0-9/128686846_3612580498803002_5196109832987003516_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=KKOMi4aKC6kAX_0NCGN&_nc_ht=scontent.fhio2-1.fna&oh=9a69b3b9fb8a594f2840afe1eece07bc&oe=60124590'
 						/>
 					</div>
 					<div className='title'>

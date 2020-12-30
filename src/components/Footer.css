@@ -6,7 +6,7 @@
     height: 8vh;
     position: fixed;
     bottom: 0;
-    background-color: $primary-color;
+    background-color: rgb(20, 54, 82);
     color: white;
     font-size: large;
 }

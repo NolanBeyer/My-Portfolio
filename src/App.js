@@ -2,7 +2,7 @@ import React from 'react'
 import routes from './routes'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import './css/styles.css'
+import './App.css';
 
 function App() {
 	return (

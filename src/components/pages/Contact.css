@@ -4,27 +4,24 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: $secondary-color;
+    padding-bottom: 40px;
+    background-color: rgb(60, 69, 82);
 }
 
 .contact-main{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    background-color: $primary-color;
+    background-color: rgb(20, 54, 82);
     padding: 40px;
-    width: 50vw;
-    height: 75vh;
+    width: 50%;
+    height: 75%;
     color: white;
     box-shadow: 10px 10px 10px black;
-
-
-    .info{
-        padding: 20px;
-
-
-    }
 }
+
+ 
+
 
 h1{
     font-size: 50px;
