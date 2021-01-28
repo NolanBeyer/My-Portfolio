@@ -29,13 +29,8 @@
   font-size: 25px;
 }
 
-.eye {
-  width: 200px;
-}
-
 .projects {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(60, 69, 82);
   width: 100vw;
@@ -43,93 +38,31 @@
 }
 
 .card {
-  width: 20%;
-  height: 50%;
+	border: 1px solid rgb(20, 54, 82);
+	padding: 2em 1em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  border-radius: 8px;
   background-color: rgb(20, 54, 82);
-  text-align: center;
-  font-size: 18px;
-  box-shadow: 10px 10px 10px black;
 }
-
-.title {
-  font-size: 21px;
-  margin: 10px;
-  color: white;
-}
-
-.description {
-  margin: 10px;
-  color: white;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.card:hover {
-  width: 20%;
-  height: 50%;
-  flex-grow: 0.01;
-  transition: 0.2s linear;
-  background-color: rgb(20, 54, 82);
-  text-align: center;
-  font-size: 18px;
-  box-shadow: 10px 10px 10px black;
-}
-
-@media (max-width: 768px) {
-  .home--page {
-    font-size: 25px;
+	.card:hover {
+		box-shadow: 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+		transition: 0.8s linear;
+		border-radius: 8px;
   }
 
-  .name {
-    font-size: 50px;
-    display: flex;
-    width: 20%;
-    height: 30%;
-  }
-
-  img {
-    height: 100px;
-  }
-
-  .card {
-    width: 20%;
-    height: 30%;
-    background-color: rgb(20, 54, 82);
-    text-align: center;
-    font-size: 15px;
-    box-shadow: 10px 10px 10px black;
-  }
-
-  .title {
-    font-size: 5px;
-    margin: 10px;
+  .project-info {
     color: white;
   }
 
-  .description {
-    display: flex;
-    font-size: 10px;
-    margin: 6px;
+  .card-title {
     color: white;
   }
-
-  .link {
-    font-size: 5px;
-  }
-}
+  
 
 
-@media (max-width: 500px) {
-  .home--page {
-    font-size: 15px;
-  }
 
-  .projects {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-}
+
+

@@ -1,84 +1,54 @@
-import React from 'react';
-import './Home.css';
+import React, { Fragment } from "react";
+import "./Home.css";
 
 const Home = () => {
-	return (
-		<div>
-			<div className='home--page'>
-				<h1 className='name'>Nolan Beyer</h1>
-				<h2>Junior Full Stack Web Developer</h2>
-				<i class='fas fa-code'></i>
-				<h3>React JS || HTML/CSS || Node || Express || SQL</h3>
-			</div>
+  return (
+    <Fragment>
+      <div className="home--page">
+        <h1 className="name">Nolan Beyer</h1>
+        <h2>Junior Full Stack Web Developer</h2>
+        <i className="fas fa-code"></i>
+        <h3>React JS || HTML/CSS || Node || Express || SQL</h3>
+      </div>
 
-			<div className='about--me'>
-				<h2>PROJECTS</h2>
-			</div>
+      <div className="about--me">
+        <h2>PROJECTS</h2>
+      </div>
 
-			<div className='projects'>
-				<div className='card'>
-					<div className='image'>
-						<img
-							alt='deal'
-							src='https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80'
-						/>
-					</div>
-					<div className='title'>
-						<h2>OFFER UP</h2>
-					</div>
+      <div className="projects container">
+        <div className="card">
+          <h2 className="card-title">Offer Up</h2>
+          <div className="icon">
+            <i className="fas fa-cart-arrow-down"></i>
+          </div>
+          <p className="project-info">
+            My first full stack project using React, Redux, Express, Massive, Bcrypt, and SQL to post, edit, delete and sell items. 
+          </p>
+          <a className="btn btn-primary btn-round">Choose Plan</a>
+        </div>
 
-					<hr />
+        <div className="card">
+          <h2 className="card-title">Face Rec</h2>
+          <div className="icon">
+            <i className="far fa-eye"></i>
+          </div>
+          <p className="project-info">A site with two factor authentication to manage your passwords from various sites.</p>
+          <a className="btn btn-primary btn-round">Choose Plan</a>
+        </div>
 
-					<div className='description'>
-						<p>
-							A Craig's list style app that has working authentication and full
-							crud.
-						</p>
-					</div>
-					<div className='link'>
-						<a className='links' href='https://offerup.page/#/'>
-							<i class='fab fa-chrome'></i> site
-						</a>
-						<a className='links' href='https://github.com/NolanBeyer/personal-project'>
-							<i class='fab fa-github'></i> code
-						</a>
-					</div>
-				</div>
+        <div className="card">
+          <h2 className="card-title">Task Tracker</h2>
+          <div className="icon">
+            <i className="fas fa-tasks"></i>
+          </div>
+          <p className="project-info">
+            Add, delete, toggle, and manage tasks.
+          </p>
+          <a className="btn btn-secondary btn-round">More Info →</a>
+        </div>
+      </div>
+    </Fragment>
+  );
+};
 
-
-				<div className='card'>
-					<div className='image'>
-						<img 
-							alt='security'
-							src='https://scontent.fhio2-1.fna.fbcdn.net/v/t1.0-9/128686846_3612580498803002_5196109832987003516_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=KKOMi4aKC6kAX_0NCGN&_nc_ht=scontent.fhio2-1.fna&oh=9a69b3b9fb8a594f2840afe1eece07bc&oe=60124590'
-						/>
-					</div>
-					<div className='title'>
-						<h2>FACE REC</h2>
-					</div>
-
-					<hr />
-
-					<div className='description'>
-						<p>
-							A security site with two factor authentication to store login info from various sites.
-						</p>
-					</div>
-					<div className='link'>
-						<a className='links eye'  href='https://www.face-id.dev/#/'>
-							<i class='fab fa-chrome'></i> site
-						</a>
-						<a className='links' href='https://github.com/darrylking15/image-recognition'>
-							<i class='fab fa-github'></i> code
-						</a>
-					</div>
-				</div>
-
-				
-				
-			</div>
-		</div>
-	)
-}
-
-export default Home
+export default Home;

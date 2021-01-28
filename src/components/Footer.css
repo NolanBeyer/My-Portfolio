@@ -3,8 +3,8 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 8vh;
-    position: fixed;
+    height: 12vh;
+    position: relative;
     bottom: 0;
     background-color: rgb(20, 54, 82);
     color: white;
