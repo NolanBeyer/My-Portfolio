@@ -34,33 +34,24 @@
   align-items: center;
   background-color: rgb(60, 69, 82);
   width: 100vw;
+  height: 50vh;
+}
+
+.cards {
+  width: 100vw;
   height: 100vh;
-}
-
-.card {
-	border: 1px solid rgb(20, 54, 82);
-	padding: 2em 1em;
 	text-align: center;
-	display: flex;
+  display: flex;
+  align-items: center;
 	flex-direction: column;
-	justify-content: space-between;
-  border-radius: 8px;
-  background-color: rgb(20, 54, 82);
+  justify-content: center;
+  background-color: rgb(60, 69, 82);
 }
-	.card:hover {
-		box-shadow: 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
-		transition: 0.8s linear;
-		border-radius: 8px;
-  }
 
-  .project-info {
-    color: white;
-  }
-
-  .card-title {
-    color: white;
-  }
   
+  .text-black {
+    color: #000;
+  }
 
 
 
