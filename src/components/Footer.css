@@ -10,3 +10,13 @@
     color: white;
     font-size: large;
 }
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: white;
+}

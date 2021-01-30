@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { useHistory } from "react-router";
 import './NavBar.css'
 
 const NavBar = () => {
-  const history = useState();
+  const history = useHistory();
   return (
-    <div className="NavBar">
-      <Navbar fixed="top" collapseOnSelect expand="lg" variant="dark">
+    <>
+      <Navbar className="NavBar" fixed="top" collapseOnSelect expand="lg" variant="dark">
         <Navbar.Brand
           style={{ cursor: "pointer" }}
           onClick={() => {
@@ -18,25 +19,25 @@ const NavBar = () => {
             width="50"
             height="50"
             alt=""
-            src="../../../../HealingHubLogo.png"
+            src="../../../../IMG_8501-2 (wecompress.com) (1).jpeg"
           ></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto"></Nav>
 
-          <Nav.Link
-            onCLick={() => {
-              history.push("/about");
-            }}
+          <Nav.Link className="links"
+               onClick={() => {
+                history.push("/about");
+              }}
           >
             About
           </Nav.Link>
 
-          <Nav.Link
-            onCLick={() => {
-              history.push("/contact");
-            }}
+          <Nav.Link className="links"
+              onClick={() => {
+                history.push("/contact");
+              }}
           >
             Contact
           </Nav.Link>
@@ -44,7 +45,7 @@ const NavBar = () => {
           
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    </>
   );
 };
 

@@ -1,21 +1,52 @@
-.home--page {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
   height: 90vh;
   width: 100vw;
+  margin: 0 auto;
   font-family: "Rubik", sans-serif;
   background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80);
   background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
   font-size: 40px;
   color: rgb(20, 54, 82);
+  position: relative;
 }
 
-.name {
+.home__overlay {
+  background: #000;
+  height: 96%;
+  width: 100%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.home__name {
+  padding-top: 50px;
   text-decoration: none;
   font-size: 70px;
-  color: rgb(20, 54, 82);
+  color: white;
+  z-index: 7;
+}
+
+.home__content {
+  color: white;
+  text-decoration: none;
+  z-index: 7;
+}
+
+.home__icon {
+  color: white;
+  z-index: 7;
+}
+
+.home__skills {
+  padding: 5px;
+  color: white;
+  z-index: 7;
 }
 
 .about--me {
@@ -40,20 +71,31 @@
 .cards {
   width: 100vw;
   height: 100vh;
-	text-align: center;
+  text-align: center;
   display: flex;
   align-items: center;
-	flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   background-color: rgb(60, 69, 82);
+  box-sizing: border-box;
+  size: 100%;
 }
 
-  
-  .text-black {
-    color: #000;
-  }
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
 
+.text-black {
+  color: #000;
+}
 
-
-
-
+.buttons {
+  margin: 5px;
+}

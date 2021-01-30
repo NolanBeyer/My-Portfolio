@@ -1,15 +1,16 @@
 import React, { Fragment } from "react";
-import { Card, Button, Row, Col } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import "./Home.css";
 
 const Home = () => {
   return (
     <Fragment>
-      <div className="home--page">
-        <h1 className="name">Nolan Beyer</h1>
-        <h2>Junior Full Stack Web Developer</h2>
-        <i className="fas fa-code"></i>
-        <h3>React JS || HTML/CSS || Node || Express || SQL</h3>
+      <div className="home">
+        <div className="home__overlay"></div>
+        <h1 className="home__name">Nolan Beyer</h1>
+        <h2 className="home__content">Junior Full Stack Web Developer</h2>
+        <i className="fas fa-code home__icon"></i>
+        <h3 className="home__skills">React JS || HTML/CSS || Node || Express || SQL</h3>
       </div>
 
       <div className="about--me">
@@ -28,20 +29,21 @@ const Home = () => {
                 <Card.Title className="text-center text-black">
                   Offer Up
                 </Card.Title>
+                <hr />
                 <Card.Text>
                   My first full stack app with a database and authentication.
                 </Card.Text>
                 <a
-                  className="btn btn-dark"
-                  href="https://github.com/NolanBeyer/Task-Tracker"
-                >
-                  <i className="fab fa-github"> Code</i>
-                </a>
-                <a
-                  className="btn btn-dark"
+                  className="buttons btn btn-dark"
                   href="https://github.com/NolanBeyer/Task-Tracker"
                 >
                   <i className="fab fa-chrome"> Site</i>
+                </a>
+                <a
+                  className="buttons btn btn-dark"
+                  href="https://github.com/NolanBeyer/personal-project"
+                >
+                  <i className="fab fa-github"> Code</i>
                 </a>
               </Card.Body>
             </Card>
@@ -59,21 +61,22 @@ const Home = () => {
               />
               <Card.Body>
                 <Card.Title className="text-black">Face Rec</Card.Title>
+                <hr />
                 <Card.Text>
                   A two factor authentication site with face id to store all
                   your passwords from various sites in.
                 </Card.Text>
                 <a
-                  className="btn btn-dark"
-                  href="https://github.com/NolanBeyer/Task-Tracker"
-                >
-                  <i className="fab fa-github"> Code</i>
-                </a>
-                <a
-                  className="btn btn-dark"
-                  href="https://github.com/NolanBeyer/Task-Tracker"
+                  className="buttons btn btn-dark"
+                  href="https://face-id.dev/#/"
                 >
                   <i className="fab fa-chrome"> Site</i>
+                </a>
+                <a
+                  className="buttons btn btn-dark"
+                  href="https://github.com/NolanBeyer/image-recognition"
+                >
+                  <i className="fab fa-github"> Code</i>
                 </a>
               </Card.Body>
             </Card>
@@ -86,21 +89,22 @@ const Home = () => {
               />
               <Card.Body>
                 <Card.Title className="text-black">Task Tracker</Card.Title>
+                <hr />
                 <Card.Text>
                   Add, complete, delete, set reminders and toggle completed
                 </Card.Text>
 
                 <a
-                  className="btn btn-dark"
-                  href="https://github.com/NolanBeyer/Task-Tracker"
-                >
-                  <i className="fab fa-github"> Code</i>
-                </a>
-                <a
-                  className="btn btn-dark"
+                  className="buttons btn btn-dark"
                   href="https://github.com/NolanBeyer/Task-Tracker"
                 >
                   <i className="fab fa-chrome"> Site</i>
+                </a>
+                <a
+                  className="buttons btn btn-dark"
+                  href="https://github.com/NolanBeyer/Task-Tracker"
+                >
+                  <i className="fab fa-github"> Code</i>
                 </a>
               </Card.Body>
             </Card>
