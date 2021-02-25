@@ -10,7 +10,9 @@ const Home = () => {
         <h1 className="home__name">Nolan Beyer</h1>
         <h2 className="home__content">Junior Full Stack Web Developer</h2>
         <i className="fas fa-code home__icon"></i>
-        <h3 className="home__skills">React JS || HTML/CSS || Node || Express || SQL</h3>
+        <h3 className="home__skills">
+          React JS || HTML/CSS || Node || Express || SQL
+        </h3>
       </div>
 
       <div className="about--me">
@@ -35,14 +37,12 @@ const Home = () => {
                 </Card.Text>
                 <a
                   className="buttons btn btn-dark"
-                  href="https://github.com/NolanBeyer/Task-Tracker"
-                >
+                  href="https://github.com/NolanBeyer/Task-Tracker">
                   <i className="fab fa-chrome"> Site</i>
                 </a>
                 <a
                   className="buttons btn btn-dark"
-                  href="https://github.com/NolanBeyer/personal-project"
-                >
+                  href="https://github.com/NolanBeyer/personal-project">
                   <i className="fab fa-github"> Code</i>
                 </a>
               </Card.Body>
@@ -53,8 +53,7 @@ const Home = () => {
               width="70px"
               height="70px"
               className="text-center"
-              style={{ width: "18rem" }}
-            >
+              style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
                 src="https://images.unsplash.com/photo-1494869042583-f6c911f04b4c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
@@ -68,14 +67,12 @@ const Home = () => {
                 </Card.Text>
                 <a
                   className="buttons btn btn-dark"
-                  href="https://face-id.dev/#/"
-                >
+                  href="https://face-id.dev/#/">
                   <i className="fab fa-chrome"> Site</i>
                 </a>
                 <a
                   className="buttons btn btn-dark"
-                  href="https://github.com/NolanBeyer/image-recognition"
-                >
+                  href="https://github.com/NolanBeyer/image-recognition">
                   <i className="fab fa-github"> Code</i>
                 </a>
               </Card.Body>
@@ -96,14 +93,12 @@ const Home = () => {
 
                 <a
                   className="buttons btn btn-dark"
-                  href="https://github.com/NolanBeyer/Task-Tracker"
-                >
+                  href="https://github.com/NolanBeyer/Task-Tracker">
                   <i className="fab fa-chrome"> Site</i>
                 </a>
                 <a
                   className="buttons btn btn-dark"
-                  href="https://github.com/NolanBeyer/Task-Tracker"
-                >
+                  href="https://github.com/NolanBeyer/Task-Tracker">
                   <i className="fab fa-github"> Code</i>
                 </a>
               </Card.Body>
