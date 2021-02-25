@@ -1,29 +1,35 @@
-.contact-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    padding-bottom: 40px;
-    background-color: rgb(60, 69, 82);
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(60, 69, 82);
 }
 
-.contact-main{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    background-color: rgb(20, 54, 82);
-    padding: 40px;
-    width: 50%;
-    height: 75%;
-    color: white;
-    box-shadow: 10px 10px 10px black;
+.contact__me {
+  margin: 100px;
+  padding: 50px;
+  background-color: rgb(20, 54, 82);
+  color: white;
+  box-shadow: 10px 10px 10px black;
 }
 
- 
+.contact__title {
+  font-size: 50px;
+  text-decoration: underline;
+  padding: 10px;
+}
 
+.contact__info {
+  padding: 10px;
+}
 
-h1{
-    font-size: 50px;
-    text-decoration: underline;
+.contact__links {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
 }
