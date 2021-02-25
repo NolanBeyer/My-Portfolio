@@ -1,55 +1,40 @@
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(60, 69, 82);
-    width: 100vw;
-    height: 120vh;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 69, 82);
+  width: 100vw;
+  height: 150vh;
 }
 
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    flex-direction: column;
-    color: white;
-    height: 80vh;
-    width: 75vw;
-    background-color: rgb(20, 54, 82);
-    box-shadow: 10px 10px 10px black;
+.about__title {
+  padding: 20px;
 }
 
-    h2{
-        display: flex;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        text-decoration: underline;
-    }
-
-    h1{
-        display: flex;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        text-decoration: underline;
-    }
-
-
-.jobs{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.about__body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(20, 54, 82);
+  color: white;
+  margin: 100px;
+  margin-bottom: 50px;
+  padding: 50px;
+  box-shadow: 10px 10px 10px black;
 }
 
-.job1{
-    text-align: center;
+.work__title {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.job2{
-    text-align: center;
+.work__history {
+  padding: 20px;
+}
+
+.work__description {
+  text-align: center;
 }
