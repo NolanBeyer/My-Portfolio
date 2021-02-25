@@ -1,14 +1,18 @@
 .NavBar {
-    background-color: rgb(20, 54, 82);
+  background-color: rgb(20, 54, 82);
 }
 
 .links {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 .links:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+.home__icon {
+  font-size: 25px;
 }
