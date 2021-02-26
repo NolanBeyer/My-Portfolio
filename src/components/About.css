@@ -38,3 +38,11 @@
 .work__description {
   text-align: center;
 }
+
+
+@media (max-width: 375px) {
+  .about {
+    width: 200vw;
+    height: 200vh;
+  }
+}

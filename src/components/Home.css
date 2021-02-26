@@ -99,3 +99,25 @@ hr {
 .buttons {
   margin: 5px;
 }
+
+@media (max-width: 375px) {
+  .home {
+    width: 200vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .about--me {
+    width: 200vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .cards {
+    width: 200vw;
+  }
+}
+
+
+
+

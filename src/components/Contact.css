@@ -33,3 +33,11 @@ a:hover {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 375px) {
+  .contact {
+    width: 200vw;
+    height: 200vh;
+  }
+}
+
