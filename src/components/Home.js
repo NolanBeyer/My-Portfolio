@@ -38,7 +38,7 @@ const Home = () => {
                 </Card.Text>
                 <a
                   className='buttons btn btn-dark'
-                  href='https://github.com/NolanBeyer/MERN-ProShop'>
+                  href='https://proshopapp127.herokuapp.com/'>
                   <i className='fab fa-chrome'> Site</i>
                 </a>
                 <a
