@@ -70,7 +70,7 @@
 
 .cards {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -80,6 +80,7 @@
   background-color: rgb(60, 69, 82);
   box-sizing: border-box;
   size: 100%;
+  padding: 30px;
 }
 
 hr {

@@ -11,12 +11,40 @@ const Home = () => {
         <h2 className='home__content'>Junior Full Stack Web Developer</h2>
         <i className='fas fa-code home__icon'></i>
         <h3 className='home__skills'>
-          React JS || HTML/CSS || Node || Express || SQL
+          React JS || HTML/CSS || Node || Express || MONGO
         </h3>
       </div>
 
       <div className='about--me'>
         <h2>PROJECTS</h2>
+      </div>
+
+      <div className='cards'>
+        <Row>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img
+                variant='top'
+                src='https://media.istockphoto.com/photos/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab-picture-id472899538?b=1&k=20&m=472899538&s=170667a&w=0&h=oGDM26vWKgcKA3ARp2da-H4St2dMEhJg23TTBeJgPDE='
+              />
+              <Card.Body>
+                <Card.Title className='text-center text-black'>
+                  Hotel BT
+                </Card.Title>
+                <hr />
+                <Card.Text>
+                  Hotel BT is a full responsive three page site built with only
+                  HTML and CSS.
+                </Card.Text>
+                <a
+                  className='buttons btn btn-dark'
+                  href='https://github.com/NolanBeyer/Hotel-Site'>
+                  <i className='fab fa-github'> Code</i>
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </div>
 
       <div className='cards'>
