@@ -11,7 +11,7 @@ const Home = () => {
         <h2 className='home__content'>Junior Full Stack Web Developer</h2>
         <i className='fas fa-code home__icon'></i>
         <h3 className='home__skills'>
-          React JS || HTML/CSS || Node || Express || MONGO
+          React JS || HTML/CSS || Node || Express || MongoDB
         </h3>
       </div>
 
