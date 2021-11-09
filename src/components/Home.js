@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Card, Row, Col } from 'react-bootstrap'
+import { Card, Row, Col, Carousel } from 'react-bootstrap'
 import './Home.css'
 
 const Home = () => {
@@ -15,11 +15,11 @@ const Home = () => {
         </h3>
       </div>
 
-      <div className='about--me'>
+      <section className='about--me'>
         <h2>PROJECTS</h2>
-      </div>
+      </section>
 
-      <div className='cards'>
+      <section className='cards'>
         <Row>
           <Col>
             <Card style={{ width: '18rem' }}>
@@ -45,9 +45,9 @@ const Home = () => {
             </Card>
           </Col>
         </Row>
-      </div>
+      </section>
 
-      <div className='cards'>
+      <section className='cards'>
         <Row>
           <Col>
             <Card style={{ width: '18rem' }}>
@@ -108,7 +108,7 @@ const Home = () => {
             </Card>
           </Col>
         </Row>
-      </div>
+      </section>
     </Fragment>
   )
 }
