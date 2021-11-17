@@ -16,6 +16,12 @@
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .home {
+    height: 40vh;
+  }
+}
+
 .home__overlay {
   background: #000;
   height: 96%;
@@ -83,6 +89,12 @@
   padding: 30px;
 }
 
+@media (max-width: 768px) {
+  .cards {
+    height: 50vh;
+  }
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -117,5 +129,6 @@ hr {
 @media (max-width: 375px) {
   .cards {
     width: 200vw;
+    height: 200vw;
   }
 }

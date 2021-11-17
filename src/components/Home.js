@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Card, Row, Col, Carousel } from 'react-bootstrap'
+import { Card, Row, Col } from 'react-bootstrap'
 import './Home.css'
 
 const Home = () => {
@@ -25,6 +25,34 @@ const Home = () => {
             <Card style={{ width: '18rem' }}>
               <Card.Img
                 variant='top'
+                src='https://media.istockphoto.com/photos/investment-business-report-picture-id1286971516?b=1&k=20&m=1286971516&s=170667a&w=0&h=t3XYTkHV4DDzYIC_peiKO7uD5Bmvjc7rcQIC9X13ZYw='
+              />
+              <Card.Body>
+                <Card.Title className='text-center text-black'>
+                  Edge Ledger
+                </Card.Title>
+                <hr />
+                <Card.Text>
+                  Edge Ledger is a financial site thats fully responsive built
+                  only with HTML and CSS.
+                </Card.Text>
+                <a
+                  className='buttons btn btn-dark'
+                  href='https://nolanbeyer.github.io/Edge-Ledger/'>
+                  <i className='fab fa-chrome'> Site</i>
+                </a>
+                <a
+                  className='buttons btn btn-dark'
+                  href='https://github.com/NolanBeyer/Edge-Ledger'>
+                  <i className='fab fa-github'> Code</i>
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img
+                variant='top'
                 src='https://media.istockphoto.com/photos/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab-picture-id472899538?b=1&k=20&m=472899538&s=170667a&w=0&h=oGDM26vWKgcKA3ARp2da-H4St2dMEhJg23TTBeJgPDE='
               />
               <Card.Body>
@@ -36,6 +64,11 @@ const Home = () => {
                   Hotel BT is a full responsive three page site built with only
                   HTML and CSS.
                 </Card.Text>
+                <a
+                  className='buttons btn btn-dark'
+                  href='https://nolanbeyer.github.io/Hotel-Site/'>
+                  <i className='fab fa-chrome'> Site</i>
+                </a>
                 <a
                   className='buttons btn btn-dark'
                   href='https://github.com/NolanBeyer/Hotel-Site'>

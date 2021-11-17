@@ -7,6 +7,12 @@
   height: 150vh;
 }
 
+@media (min-width: 768px) {
+  .about {
+    margin-top: 100px;
+  }
+}
+
 .about__title {
   padding: 20px;
 }
@@ -37,7 +43,6 @@
 .work__description {
   text-align: center;
 }
-
 
 @media (max-width: 375px) {
   .about {
